@@ -39,6 +39,7 @@
 	- IN1/IN2 mode
 	
 	data sheet link: https:http://www.ti.com/lit/ds/symlink/drv8835.pdf
+	Mode table on page 4
 
 	_ __ _ __ _ __ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __
 
