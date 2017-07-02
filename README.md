@@ -8,8 +8,8 @@ Not all files are finalized with all modes considered. Will post updates when ne
 
 ## General Advice
 
--* For use in Arduino constructor with pins used must be declared **outside** setup and loop.
- 
--* SetPinMode method must be called in setup to set up the component. Becareful with spelling.
+- For use in Arduino constructor with pins used must be declared **outside** setup and loop.
+
+- SetPinMode method must be called in setup to set up the component. Becareful with spelling.
 
 
