@@ -63,11 +63,11 @@ void DRV8835DualMotorDriver::setBCounterClockwise()
  */
 void DRV8835DualMotorDriver::stopA()
 {
-	digitalWrite(A_ENABLE, LOW);
+	digitalWrite(A_PHASE, LOW);
 }
 void DRV8835DualMotorDriver::stopB()
 {
-	digitalWrite(B_ENABLE, LOW);
+	digitalWrite(B_PHASE, LOW);
 }
 
 
@@ -126,14 +126,19 @@ void DRV8835DualMotorDriver::setBackwards()
 	setBClockwise();
 }
 
-void DRV8835DualMotorDriver::setRotateRight();
+void DRV8835DualMotorDriver::setRotateRight()
 {
 	setACounterClockwise();
 	setBCounterClockwise();
 }
 
-void DRV8835DualMotorDriver::setRotateLeft();
+void DRV8835DualMotorDriver::setRotateLeft()
 {
 	setAClockwise();
 	setBClockwise();
+}
+void DRV8835DualMotorDriver::stopBoth()
+{
+	stopB();
+	stopA();
 }
