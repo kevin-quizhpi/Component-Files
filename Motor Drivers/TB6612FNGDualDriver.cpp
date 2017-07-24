@@ -136,13 +136,13 @@ void TB6612FNGDualDriver::setBackwards()
 	setBClockwise();
 }
 
-void TB6612FNGDualDriver::setRotateRight();
+void TB6612FNGDualDriver::setRotateRight()
 {
 	setACounterClockwise();
 	setBCounterClockwise();
 }
 
-void TB6612FNGDualDriver::setRotateLeft();
+void TB6612FNGDualDriver::setRotateLeft()
 {
 	setAClockwise();
 	setBClockwise();
